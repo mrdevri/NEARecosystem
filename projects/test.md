@@ -7,6 +7,9 @@ cta: "https://near.org"
 logo: /img/testimg.svg
 category: amm, dex, exchange, tools
 status: building
+TVL: "$534,504"
+OA: "12345"
+MAA: "2345"
 ---
 
 This is a test description to make sure this is working
