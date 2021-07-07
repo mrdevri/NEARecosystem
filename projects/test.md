@@ -4,7 +4,7 @@ date: "2021-07-04"
 title: "TestTitle"
 logline: "First project Test"
 cta: "https://near.org"
-logo: 
+logo: /img/testimg.svg
 category: amm, dex, exchange, tools
 status: building
 ---
