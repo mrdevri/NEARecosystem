@@ -20,8 +20,6 @@ cta: "https://anchorprotocol.com/"
 logo: /img/anchor.svg
 category: defi, tools
 status: building
-oa: "1000"
-maa: "500"
 ---
 ```
 
@@ -35,8 +33,6 @@ Example Markdown headers are above. Below are guidelines for each field:
 - `logo`: A relative path to the corresponding SVG image
 - `category`: A comma separated list of categories describing the project
 - `status`: The status of the project: `live`, `building`, or `closed`
-- `oa`: Onboarded accounts:
-- `maa`: Monthly active accounts:
 
 ### Categories
 
