@@ -6,37 +6,64 @@ This repository is the data source for the NEAR Ecosystem page, located at [near
 
 # Contributing Guidelines
 
-Projects & Guilds are composed of two files: a Markdown file with headers, and an .svg or .png image. To add a new project to the ecosystem page, create both a new Markdown file in the `projects` or `guilds` directory and add a new .svg or .png image in the `img` directory.
+All integrations in the NEAR Ecosystem are composed of two files: a Markdown file with headers, and an .svg or .png image. To add a new project to the ecosystem page, create both a new Markdown file in the `projects` or `guilds` directory and add a new .svg or .png image in the `img` directory.
 
 ### Markdown Headers
 
 ```
 ---
-slug: "anchor"
+slug: "reffinance"
 date: "2020-04-03"
-title: "Anchor"
-logline: "Anchor is a savings protocol that aims to produce a simple and convenient savings product with broad appeal to everyday users."
-cta: "https://anchorprotocol.com/"
-logo: /img/anchor.svg
-category: defi, tools
-status: building
+title: "Ref Finance"
+logline: "Ref Finance is a multi-purpose Decentralized Finance (DeFi) platform built on NEAR Protocol."
+website: "https://ref.finance/"
+app: "https://app.ref.finance/"
+twitter: "https://twitter.com/finance_ref"
+telegram: "https://t.me/ref_finance"
+discord: "https://discord.gg/KKjQwCRvbV"
+token: 
+dao:
+logo: /img/reffinancelogo.png
+integration: project
+category: defi, app
+status: live
+updates: 
+contract: "https://github.com/ref-finance/ref-contracts"
 ---
 ```
 
-Example Markdown headers are above. Below are guidelines for each field:
+Example Markdown headers are above (only input what is applicatble to the integration you are adding). Below are guidelines for each field:
 
 - `slug`: The page URL that follows after near.org/ecosystem/
 - `date`: The date of project addition
 - `title`: The title of the project
 - `logline`: The one line summary of the project and its integration to NEAR
-- `cta`: A URL to direct users to the page
-- `logo`: A relative path to the corresponding SVG image
+- `website`: A URL to direct users to the page
+- `app`: A URL directly to the app
+- `token`: 
+- `dao`:
+- `logo`: A relative path to the corresponding SVG/PNG image
+- `integration`: How it ties into the NEAR Ecosystem (see below)
 - `category`: A comma separated list of categories describing the project
-- `status`: The status of the project: `live`, `building`, or `closed`
+- `status`: The status of the integration: `live`, `building`, `closed`
+- `updates`: URL to recent updates
+- `contract`: URL to contract
 
 ### Categories
 
-Available classifications for projects:
+Available classifications for integrations:
+
+```
+project
+guild
+dao
+company
+fund
+accelerator
+```
+
+
+Available classifications for project categories:
 
 ```
 amm
