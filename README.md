@@ -6,7 +6,7 @@ This repository is the data source for the NEAR Ecosystem page, located at [near
 
 # Contributing Guidelines
 
-A project is composed of two files: a Markdown file with headers, and an .svg image. To add a new project to the ecosystem page, create both a new Markdown file in the `projects` directory and add a new .svg image in the `img` directory.
+Projects & Guilds are composed of two files: a Markdown file with headers, and an .svg or .png image. To add a new project to the ecosystem page, create both a new Markdown file in the `projects` or `guilds` directory and add a new .svg or .png image in the `img` directory.
 
 ### Markdown Headers
 
@@ -56,4 +56,4 @@ metaplex
 
 ### Image Guidelines
 
-All .svg files must be 100x100px. Do not embed any excessive raster image files: svg filesizes over 500kb will be rejected.
+All .svg/.png files must be 100x100px. Do not embed any excessive raster image files: svg filesizes over 500kb will be rejected.
