@@ -12,23 +12,22 @@ All integrations in the NEAR Ecosystem are composed of two files: a Markdown fil
 
 ```
 ---
-slug: "reffinance"
-date: "2020-04-03"
-title: "Ref Finance"
-logline: "Ref Finance is a multi-purpose Decentralized Finance (DeFi) platform built on NEAR Protocol."
-website: "https://ref.finance/"
-app: "https://app.ref.finance/"
-twitter: "https://twitter.com/finance_ref"
-telegram: "https://t.me/ref_finance"
+slug: "skywardfinance"
+date: "2021-07-03"
+title: "Skyward Finance"
+logline: "Enable fair token distribution and price discovery for projects built on NEAR Protocol."
+website: "https://skyward.finance/"
+app: "https://app.skyward.finance/"
+twitter: "https://twitter.com/skywardfinance"
+telegram: "https://t.me/skywardfinance"
 discord: "https://discord.gg/KKjQwCRvbV"
-token: 
-dao:
-logo: /img/reffinancelogo.png
+medium: "https://medium.com/nearprotocol/everything-you-need-to-know-about-skyward-finance-before-the-first-token-sale-6e82fe305e1a"
+github: "https://github.com/skyward-finance/"
+logo: /img/skywardfinancelogo.png
 integration: project
-category: defi, app
+category: defi, app, launchpad
 status: live
-updates: 
-contract: "https://github.com/ref-finance/ref-contracts"
+contract: "https://github.com/skyward-finance/contracts"
 ---
 ```
 
@@ -40,13 +39,17 @@ Example Markdown headers are above (only input what is applicatble to the integr
 - `logline`: The one line summary of the project and its integration to NEAR
 - `website`: A URL to direct users to the page
 - `app`: A URL directly to the app
+- `twitter`: A URL to the twitter page
+- `telegram`: A URL to the telegram channel
+- `discord`: A URL to the discord channel
+- `medium`: A URL to the medium page
+- `github`: A URL to the github page
 - `token`: 
 - `dao`:
 - `logo`: A relative path to the corresponding SVG/PNG image
 - `integration`: How it ties into the NEAR Ecosystem (see below)
 - `category`: A comma separated list of categories describing the project
 - `status`: The status of the integration: `live`, `building`, `closed`
-- `updates`: URL to recent updates
 - `contract`: URL to contract
 
 ### Categories
